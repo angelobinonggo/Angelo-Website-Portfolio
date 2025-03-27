@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Angelo Binonggo</title>
+
+    <!--=============== Swiper CSS ===============-->
+    <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
+
+    <!--=============== Main Style Sheet ===============-->
+
+    <link rel="stylesheet" href="assets/css/styles.css">
+
+    <!--=============== Remixicon ===============-->
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.2.0/remixicon.css">
+
+    <!--=============== Scroll Reveal JS ===============-->
+
+    <script src="https://unpkg.com/scrollreveal@4.0.0/dist/scrollreveal.min.js"></script>
+
+</head>
+<body>
+
+    <!--=============== Header ===============-->
+
+    <header class="angelo-header">
+
+        <div class="angelo-container">
+            <div class="inner">
+
+                <div class="angelo-logo">
+                    <a href="#"><span>Angelo</span></a>
+                </div>
+
+                <div class="header-btns">
+                    <div class="angelo-main-btn border-btn lets-talk-btn">
+                        <a href="#contact">Let's Talk</a>
+                    </div>
+
+                    <a href="#contact" class="lets-talk-icon"><i class="ri-chat-1-fill"></i></a>
+                    <div class="theme-btn">
+                        <i class="ri-sun-fill moon-icon"></i>
+                        <i class="ri-moon-fill sun-icon"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </header>
+    
+    <!--=============== Contact Me ===============-->
+    <section class="angelo-section nav-menu-section" id="contact">
+        <div class="angelo-container angelo-sub-container">
+            <div class="angelo-wrapper">
+
+                <div class="section-title">
+                    <h3>Contact Me</h3>
+                    <p>Get In Touch</p>
+                </div>
+
+                <div class="section-content">
+                    <div class="contact-container">
+                        
+                        <div class="contact-info">
+                            <h3>Contact Info</h3>
+                            <ul class="contact-details">
+
+                                <li class="contact-item">
+                                    <div class="contact-icon">
+                                        <i class="ri-mail-send-fill"></i>
+                                    </div>
+                                    <div class="contact-method">
+                                        <span>E-mail</span>
+                                        <h4>binonggo.johnmichael@gmail.com</h4>
+                                        <a href="#" onclick="openGmailCompose('binonggo.johnmichael@gmail.com')" target="_blank"><span>Send <i class="ri-arrow-right-up-line"></i></span></a>
+                                    </div>
+                                </li>
+
+                                <li class="contact-item">
+                                    <div class="contact-icon">
+                                        <i class="ri-whatsapp-line"></i>
+                                    </div>
+                                    <div class="contact-method">
+                                        <span>Whatsapp</span>
+                                        <h4>+63 955-9812-012</h4>
+                                        <a href="https://wa.me/+639559812012?text=Hello%20there!%20How%20can%20I%20help%20you?" target="_blank"><span>Send <i class="ri-arrow-right-up-line"></i></span></a>
+                                    </div>
+                                </li>
+
+                                <li class="contact-item">
+                                    <div class="contact-icon">
+                                        <i class="ri-messenger-fill"></i>
+                                    </div>
+                                    <div class="contact-method">
+                                        <span>Messenger</span>
+                                        <h4>Angelo Binonggo</h4>
+                                        <a href="http://m.me/angelo.binonggo?text=Hello%20and%20Welcome!" target="_blank"><span>Send <i class="ri-arrow-right-up-line"></i></span></a>
+                                    </div>
+                                </li>
+
+                            </ul>
+
+                            <h3>Social Info</h3>
+                            <ul class="contact-social-links">
+                                <li><a href=""><i class="ri-facebook-fill"></i></a></li>
+                                <li><a href=""><i class="ri-twitter-fill"></i></a></li>
+                                <li><a href=""><i class="ri-linkedin-fill"></i></a></li>
+                            </ul>
+
+                        </div>
+
+                        <div class="contact-form-body">
+                            <h2>Let's Work <span>together.</span></h2>
+                            <p>Please fill out the form in this section to get in touch with me, or call between 9:00 a.m. and 8:00 p.m. ET, Monday through Friday.</p>
+
+                            <form action="" method="post" id="angelo-contact-form">
+
+                                <div class="input-group">
+                                    <input type="text" name="full-name" placeholder="Name *" required>
+                                </div>
+
+                                <div class="input-group">
+                                    <input type="text" name="email" placeholder="Email *" required>
+                                </div>
+
+                                <div class="input-group">
+                                    <input type="text" name="subject" placeholder="Subject *" required>
+                                </div>
+
+                                <div class="input-group">
+                                    <textarea name="message" placeholder="Your Message *" required></textarea>
+                                </div>
+
+                                <div class="input-group send-message">
+                                    <button class="angelo-main-btn fill-btn submit-btn" name="submit" type="submit">Send Message</button>
+                                    <div class="contact-form-alert"><span>Message sent successfully!</span> <i class="ri-checkbox-circle-fill"></i></div>
+                                </div>
+
+                            </form>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <!--=============== Footer ===============-->
+
+    <footer class="angelo-footer">
+        <div class="angelo-container">
+            <div class="inner">
+                <div class="angelo-logo">
+                    <a href="#home"><span>Angelo</span></a>
+                </div>
+                <ul class="footer-menu">
+                    <li class="menu-item"><a href="index.html">Home</a></li>
+                    <li class="menu-item"><a href="about.html">About</a></li>
+                    <li class="menu-item"><a href="contact.html">Contact</a></li>
+                </ul>
+                <p class="copy-right">© <a href="#">AngeloTechCompanies.com</a>, Inc. All rights reserved.</p>
+            </div>
+        </div>
+
+    </footer>
+
+    <!--=============== Swiper JS ===============-->
+    <script src="assets/js/swiper-bundle.min.js"></script>
+
+    <!--=============== Email JS ===============-->
+
+    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+
+    <!--=============== Main Javascript ===============-->
+
+    <script src="assets/js/main.js"></script>
+
+</body>
+</html>
