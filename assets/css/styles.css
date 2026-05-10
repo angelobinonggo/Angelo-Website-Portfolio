@@ -35,15 +35,15 @@
     --color-04: hsl(var(--hue), 0%, 62%); /* Light-GrayGray to Dark-Gray */
     --color-05: hsl(var(--hue), 26%, 12%); /* Dark to Primary */
 
-    --body-color: hsl(250 26% 12%); /* Dark to White */
+    --body-color: hsl(250, 26%, 12%); /* Dark to White */
     --hover-color: hsl(var(--hue) var(--sat) calc(var(--light) - 7%));
 
     /* =============== Background Colors =============== */
 
-    --bottom-nav-bg: hsl(var(--hue) 32% 25% / .65);
-    --card-bg: linear-gradient(120deg, hsl(var(--hue) 54% 74% / .15), hsl(var(--hue) 54% 74% / 0.5));
-    --modal-backdrop-bg: hsl(var(--hue) 54% 74% / .1);
-    --footer-bg: linear-gradient(360deg, hsl(var(--hue) 54% 74% / .15), hsl(var(--hue) 54% 74% / 0.1));
+    --bottom-nav-bg: hsl(var(--hue), 32%, 25%, .65);
+    --card-bg: linear-gradient(120deg, hsl(var(--hue), 54%, 74%, .15), hsl(var(--hue), 54%, 74%, 0.5));
+    --modal-backdrop-bg: hsl(var(--hue), 54%, 74%, .1);
+    --footer-bg: linear-gradient(360deg, hsl(var(--hue), 54%, 74%, .15), hsl(var(--hue), 54%, 74%, 0.1));
 
     --scrollbar-color: hsl(var(--hue), 25%, 20%);
     --scrollbar-thumb: hsl(var(--hue) var(--sat) var(--light));
@@ -92,8 +92,8 @@
 
     /* =============== Changeable Colors for Dark/Light Themes =============== */
 
-    --color-01: hsl(var(--hue) 26% 12%); /* Primary to Dark */
-    --color-02: hsl(var(--hue) 26% 12%); /* White to Dark */
+    --color-01: hsl(var(--hue), 26%, 12%); /* Primary to Dark */
+    --color-02: hsl(var(--hue), 26%, 12%); /* White to Dark */
     --color-03: hsl(var(--hue), 45%, 98%); /* Dark to White */
     --color-04: hsl(var(--hue), 9%, 46%); /* Light-GrayGray to Dark-Gray */
     --color-05: hsl(var(--hue) var(--sat) var(--light)); /* Dark to Primary */
@@ -102,14 +102,14 @@
 
     /* =============== Background Colors =============== */
 
-    --bottom-nav-bg: hsl(var(--hue) 32% 85% / .8);
-    --card-bg: hsl(0 0% 100%);
-    --modal-backdrop-bg: hsl(var(--hue) 50% 12% / .5);
+    --bottom-nav-bg: hsl(var(--hue), 32%, 85%, .8);
+    --card-bg: hsl(0, 0%, 100%);
+    --modal-backdrop-bg: hsl(var(--hue), 50%, 12%, .5);
     --footer-bg: linear-gradient(360deg, hsl(var(--hue) var(--sat) var(--light)), hsl(var(--hue) var(--sat) var(--light) 54% 74% / .75));
 
     --scrollbar-color: hsl(var(--hue), 9%, 60%);
-    --scrollbar-thumb: hsl(var(--hue) 9% 25%);
-    --scrollbar-thumb-hover: hsl(var(--hue) 9% 17%);
+    --scrollbar-thumb: hsl(var(--hue), 9%, 25%);
+    --scrollbar-thumb-hover: hsl(var(--hue), 9%, 17%);
 
     .bottom-nav .menu-hide-btn {
         box-shadow: 0 2px 4px hsl(0, 0%, 1%, .25);
@@ -293,7 +293,7 @@ body{
 .to-top-btn{
     z-index: var(--z-fixed);
     position: fixed;
-    background: hsl(var(--hue) 54% 74% / .2);
+    background: hsl(var(--hue), 54%, 74%, .2);
     height: 100px;
     width: 2px;
     bottom: 25px;
@@ -506,8 +506,8 @@ body{
     justify-content: center;
     align-items: center;
     column-gap: 25px;
-    border-bottom: 1px solid hsl(var(--hue) 45% 98% / .1);
-    border-left: 1px solid hsl(var(--hue) 45% 98% / .1);
+    border-bottom: 1px solid hsl(var(--hue), 45%, 98%, .1);
+    border-left: 1px solid hsl(var(--hue), 45%, 98%, .1);
     border-radius: 50px;
     /* display: none; */
 }
@@ -600,8 +600,8 @@ body{
     backdrop-filter: blur(10px);
     width: 85px;
     height: 50px;
-    border-bottom: 1px solid hsl(var(--hue) 45% 98% / .1);
-    border-left: 1px solid hsl(var(--hue) 45% 98% / .1);
+    border-bottom: 1px solid hsl(var(--hue), 45%, 98%, .1);
+    border-left: 1px solid hsl(var(--hue), 45%, 98%, .1);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -1699,7 +1699,7 @@ body{
 .contact-form-body form .input-group textarea{
     color: var(--color-02);
     font-size: var(--small-font-size);
-    background: hsl(var(--hue) 54% 74% / .1);
+    background: hsl(var(--hue), 54%, 74%, .1);
     width: 100%;
     border: none;
     outline: none;
